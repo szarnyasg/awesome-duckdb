@@ -98,7 +98,6 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [ParadeDB](https://github.com/paradedb/paradedb) - Postgres for Search and Analytics, powered by DuckDB-embedded-in-Postgres.
 - [Crunchy Bridge for Analytics](https://www.crunchydata.com/products/crunchy-bridge-for-analytics) - Fully managed DBaaS based in Postgres integrated with DuckDB.
 
-
 ### Web Clients
 
 - [Online DuckDB Shell](https://shell.duckdb.org/) - Online DuckDB shell powered by WebAssembly.
