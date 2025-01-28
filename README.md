@@ -18,6 +18,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 * [Resources](#resources)
 * [Client APIs](#client-apis)
 * [Tools Powered by DuckDB](#tools-powered-by-duckdb)
+  * [PostgreSQL Integrations](#postgresql-integrations)
   * [Web Clients](#web-clients)
   * [Backends](#backends)
 * [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
@@ -102,14 +103,20 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Definite](https://www.definite.app/) - Definite pulls all your data into a single place for analytics and dashboards. No engineering or SQL required. Get a managed data warehouse (DuckDB), ELT, data modeling / transformations and BI in a single platform.
 - [Amphi ETL](https://github.com/amphi-ai/amphi-etl) - Low-code data pipelines for structured and unstructured data. SQL transformations are powered by DuckDB.
 - [Quackpipe](https://github.com/metrico/quackpipe) - Serverless OLAP API/UI built on top of DuckDB with basic ClickHouse API compatibility and Motherduck support.
-- [ParadeDB](https://github.com/paradedb/paradedb) - Postgres for Search and Analytics, powered by DuckDB-embedded-in-Postgres.
-- [Crunchy Bridge for Analytics](https://www.crunchydata.com/products/crunchy-bridge-for-analytics) - Fully managed DBaaS based in Postgres integrated with DuckDB.
 - [UniverSQL](https://github.com/buremba/universql) - An implementation of Snowflake API, enables running queries on Snowflake tables locally with DuckDB without a running warehouse.
-- [Whereabouts](https://github.com/ajl2718/whereabouts) - Fast, accurate, open-source geocoding in Python, using DuckDB.
+- [Whereabouts](https://github.com/ajl2718/w`h`ereabouts) - Fast, accurate, open-source geocoding in Python, using DuckDB.
 - [Phoenix Analytics](https://github.com/lalabuy948/PhoenixAnalytics) - Plug and play analytics for Phoenix applications, powered by DuckDB.
 - [sqlglot](https://github.com/tobymao/sqlglot) - Python transpiler that translates between 23 different SQL dialects including DuckDB.
 - [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
 - [SQLMesh](https://github.com/TobikoData/sqlmesh) - A next-generation data transformation and modeling framework with support for DuckDB connections for state, transformations & running unit tests locally.
+
+### PostgreSQL Integrations
+
+- [Crunchy Bridge for Analytics](https://www.crunchydata.com/products/crunchy-bridge-for-analytics) - Fully managed DBaaS based in PostgreSQL integrated with DuckDB.
+- [ParadeDB](https://github.com/paradedb/paradedb) - PostgreSQL for Search and Analytics, powered by DuckDB-embedded-in-PostgreSQL.
+    - [pg_analytics](https://github.com/paradedb/pg_analytics) - PostgreSQL extension embedding DuckDB-in-PostgreSQL for fast on-disk and remote object storage analytics from PostgreSQL. Built as a Foreign Data Wrapper with full query pushdown to DuckDB.
+- [pg_duckdb](https://github.com/duckdb/pg_duckdb) - DuckDB-powered PostgreSQL for high performance applications and analytics.
+- [pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) - A Postgres extension that adds columnar storage and vectorized execution (DuckDB) for fast analytics within PostgreSQL
 
 ### Web Clients
 
@@ -134,7 +141,6 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Fugue](https://github.com/fugue-project/fugue/) - A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites.
 - [Splink](http://github.com/moj-analytical-services/splink) - A free Python library for fast, accurate data deduplication and record linkage.
 - [Simple-data-analysis](https://github.com/nshiab/simple-data-analysis) - Easy-to-use and high-performance JavaScript library for data analysis.
-- [pg_analytics](https://github.com/paradedb/pg_analytics) - PostgreSQL extension embedding DuckDB-in-Postgres for fast on-disk and remote object storage analytics from Postgres. Built as a Foreign Data Wrapper with full query pushdown to DuckDB.
 - [duckdb_fdw](https://github.com/alitrack/duckdb_fdw) - DuckDB Foreign Data Wrapper for PostgreSQL.
 - [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and duckdb-wasm.
 - [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
